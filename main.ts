@@ -16,7 +16,7 @@ const inputArray = input.split('\n');
 console.log(`Advent of Code 2020!\nhttps://adventofcode.com/\n\n`);
 console.log(`Running solutions for day ${day}\n`);
 
-const { solutionOne, solutionTwo } = await import(`./solutions/${day}_day`);
+const { solutionOne, solutionTwo } = await import(`./solutions/${day}_day.ts`);
 
 // const solutionOne = solutions[`solution${day}1`];
 // const solutionTwo = solutions[`solution${day}2`];
